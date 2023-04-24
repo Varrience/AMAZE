@@ -262,6 +262,7 @@ form tiles over grid typeof block
 4: A TELEPORT BLOCK
 5: ONE TIME USE TELEPORTER
 */
+showMobileControls(false, false, false, false);
 var complete = [[].concat(player[0]), [].concat(tile), [], []]; // in charge of the level status
 var _que = []; // AI MOVE ACCUMULATOR
 var _obj = 0; // block Object selector
